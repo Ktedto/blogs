@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Flex布局\弹性布局 | jett</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="大狗熊">
+    
+    <link rel="preload" href="/blogs/assets/css/0.styles.e5065b0a.css" as="style"><link rel="preload" href="/blogs/assets/js/app.25fe137b.js" as="script"><link rel="preload" href="/blogs/assets/js/3.f3cac457.js" as="script"><link rel="preload" href="/blogs/assets/js/1.4ce8eb60.js" as="script"><link rel="preload" href="/blogs/assets/js/13.5419f966.js" as="script"><link rel="prefetch" href="/blogs/assets/js/10.1e3f0a45.js"><link rel="prefetch" href="/blogs/assets/js/11.f65fb420.js"><link rel="prefetch" href="/blogs/assets/js/12.0ac84e10.js"><link rel="prefetch" href="/blogs/assets/js/4.3c9f08bb.js"><link rel="prefetch" href="/blogs/assets/js/5.84855240.js"><link rel="prefetch" href="/blogs/assets/js/6.731cf391.js"><link rel="prefetch" href="/blogs/assets/js/7.5f3b09d9.js"><link rel="prefetch" href="/blogs/assets/js/8.56e1fadf.js"><link rel="prefetch" href="/blogs/assets/js/9.7f292a0b.js">
+    <link rel="stylesheet" href="/blogs/assets/css/0.styles.e5065b0a.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar" data-v-7dd95ae2><div data-v-7dd95ae2><div class="password-shadow password-wrapper-out" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>jett</h3> <p class="description" data-v-59e6cb88>大狗熊</p> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>jett</span>
+          
+        <!---->
+        2023
+      </a></span></div></div> <div class="hide" data-v-7dd95ae2><header class="navbar" data-v-7dd95ae2><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/blogs/" class="home-link router-link-active"><img src="/blogs/b.png" alt="jett" class="logo"> <span class="site-name">jett</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/blogs/" class="nav-link"><i class="undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/categories/前端/" class="nav-link"><i class="undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/categories/jite/" class="nav-link"><i class="undefined"></i>
+  jite
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      我的博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/233526039432445" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/Xusssyyy" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="/blogs/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div> <!----></nav></div></header> <div class="sidebar-mask" data-v-7dd95ae2></div> <aside class="sidebar" data-v-7dd95ae2><div class="personal-info-wrapper" data-v-1fad0c41 data-v-7dd95ae2><img src="/blogs/b.png" alt="author-avatar" class="personal-img" data-v-1fad0c41> <h3 class="name" data-v-1fad0c41>
+    jett
+  </h3> <div class="num" data-v-1fad0c41><div data-v-1fad0c41><h3 data-v-1fad0c41>3</h3> <h6 data-v-1fad0c41>文章</h6></div> <div data-v-1fad0c41><h3 data-v-1fad0c41>3</h3> <h6 data-v-1fad0c41>标签</h6></div></div> <ul class="social-links" data-v-1fad0c41></ul> <hr data-v-1fad0c41></div> <nav class="nav-links"><div class="nav-item"><a href="/blogs/" class="nav-link"><i class="undefined"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/blogs/categories/前端/" class="nav-link"><i class="undefined"></i>
+  前端
+</a></li><li class="dropdown-item"><!----> <a href="/blogs/categories/jite/" class="nav-link"><i class="undefined"></i>
+  jite
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="undefined"></i>
+      我的博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://juejin.cn/user/233526039432445" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/Xusssyyy" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="undefined"></i>
+  Github
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div><div class="nav-item"><a href="/blogs/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  Tag
+</a></div> <!----></nav> <!----> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-59e6cb88 data-v-7dd95ae2><h3 class="title" data-v-59e6cb88>Flex布局\弹性布局</h3> <!----> <label id="box" class="inputBox" data-v-59e6cb88><input type="password" value="" data-v-59e6cb88> <span data-v-59e6cb88>Konck! Knock!</span> <button data-v-59e6cb88>OK</button></label> <div class="footer" data-v-59e6cb88><span data-v-59e6cb88><i class="iconfont reco-theme" data-v-59e6cb88></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-59e6cb88>vuePress-theme-reco</a></span> <span data-v-59e6cb88><i class="iconfont reco-copyright" data-v-59e6cb88></i> <a data-v-59e6cb88><span data-v-59e6cb88>jett</span>
+          
+        <!---->
+        2023
+      </a></span></div></div> <div data-v-7dd95ae2><div data-v-7dd95ae2><main class="page"><section style="display:;"><div class="page-title"><h1 class="title">Flex布局\弹性布局</h1> <div data-v-8a445198><i class="iconfont reco-account" data-v-8a445198><span data-v-8a445198>jett</span></i> <i class="iconfont reco-date" data-v-8a445198><span data-v-8a445198>2023/4/18</span></i> <!----> <i class="tags iconfont reco-tag" data-v-8a445198><span class="tag-item" data-v-8a445198>前端Flex</span></i></div></div> <div class="theme-reco-content content__default"><h2 id="前言"><a href="#前言" class="header-anchor">#</a> 前言</h2> <p>布局的传统解决方案，基于盒状模型，依赖 <code>display</code> 属性 + <code>position</code> 属性 + <code>float</code> 属性。它对于那些特殊布局非常不方便，比如，垂直居中就不容易实现。
+2009年，W3C 提出了一种新的方案----Flex 布局，可以简便、完整、响应式地实现各种页面布局。目前，它已经得到了所有浏览器的支持，这意味着，现在就能很安全地使用这项功能。</p> <h2 id="_1-基础概念"><a href="#_1-基础概念" class="header-anchor">#</a> 1.基础概念：</h2> <p>采用 Flex 布局的元素，称为 Flex 容器（flex container），简称&quot;容器&quot;。它的所有子元素自动成为容器成员，称为 Flex 项目（flex item），简称&quot;项目&quot;。
+<img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/35efedb7c40344c5a9daa5af2b850720~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp" style="zoom:100%;"></p> <p>（1）基础概念：
+容器默认存在两根轴：水平的主轴（main axis）和垂直的交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做main start，结束位置叫做main end；交叉轴的开始位置叫做cross start，结束位置叫做cross end。
+项目默认沿主轴排列。单个项目占据的主轴空间叫做main size，占据的交叉轴空间叫做cross size。
+回答时候简而言之：弹性布局由父级容器、子容器构成，通过设置主轴和交叉轴来控制子元素的排序方式</p> <h2 id="_2-说说父级容器属性"><a href="#_2-说说父级容器属性" class="header-anchor">#</a> 2. 说说父级容器属性</h2> <p>以下6个属性设置在容器上。</p> <div class="language- extra-class"><pre class="language-text"><code>flex-direction :  row | row-reverse | column | column-reverse;  该属性定义了 子元素排列方向
+
+
+**flex-wrap：**nowrap | wrap | wrap-reverse;  该属性称&quot;轴线&quot;
+
+
+flex-flow：  || ; flex-direction和flex-wrap的简写形式，默认值为row nowrap
+
+
+justify-content: flex-start | flex-end | center | space-between | space-around;  该属性定义了子元素在主轴上的对齐方式。
+
+
+align-items:  flex-start | flex-end | center | baseline | stretch;  定义项目在交叉轴上如何对齐。
+
+
+**align-content: ** flex-start | flex-end | center | space-between | space-around | stretch; 属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用
+</code></pre></div><p>其实，父级容器属性回答到这里就可以了,后面还要子级元素的属性要说说~~！，然后在最后面说几个案例就可以了,比如说，垂直水平居中布局，左边固定右边自适应等常见布局。
+下面是初学者可以看的一些详细的一些知识点，</p> <h1 id="_1-flex-direction属性"><a href="#_1-flex-direction属性" class="header-anchor">#</a> (1) flex-direction属性</h1> <div class="language- extra-class"><pre class="language-text"><code>.box {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+row（默认值）：主轴为水平方向，起点在左端。row-reverse：主轴为水平方向，起点在右端。column：主轴为垂直方向，起点在上沿。column-reverse：主轴为垂直方向，起点在下沿。
+</code></pre></div><h1 id="_2-flex-wrap属性"><a href="#_2-flex-wrap属性" class="header-anchor">#</a> (2)flex-wrap属性</h1> <p>默认情况下，项目都排在一条线（又称&quot;轴线&quot;）上。flex-wrap属性定义，如果一条轴线排不下，如何换行。</p> <div class="language- extra-class"><pre class="language-text"><code>.box{
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+</code></pre></div><p>它可能取三个值。</p> <p><code>nowrap</code>（默认）：不换行。
+<img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/16b907d20df34e65a7902566eba7b88b~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp" style="zoom:100%;"></p> <p><code>wrap</code>：换行，第一行在上方。
+<img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b9d0b3a1c1314ee7a6cd9679c36fb9c5~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp" style="zoom:100%;"></p> <p><code>wrap-reverse</code>：换行，第一行在下方。
+<img src="https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a97e975de29841339387524626edfc67~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp" style="zoom:100%;"></p> <h1 id="_3-flex-flow"><a href="#_3-flex-flow" class="header-anchor">#</a> (3)**flex-flow</h1> <p><code>flex-flow</code>属性是<code>flex-direction</code>属性和<code>flex-wrap</code>属性的简写形式，默认值为<code>row nowrap</code>。</p> <div class="language- extra-class"><pre class="language-text"><code>.box { flex-flow: || ; }
+</code></pre></div><h1 id="_4-justify-content属性"><a href="#_4-justify-content属性" class="header-anchor">#</a> (4)**justify-content属性</h1> <p><code>justify-content</code>属性定义了项目在主轴上的对齐方式。</p> <div class="language- extra-class"><pre class="language-text"><code>.box { justify-content: flex-start | flex-end | center | space-between | space-around; }
+</code></pre></div><p>具体对齐方式与轴的方向有关。下面假设主轴为从左到右。</p> <div class="language- extra-class"><pre class="language-text"><code>flex-start（默认值）：左对齐
+flex-end：右对齐
+center： 居中
+space-between：两端对齐，项目之间的间隔都相等。
+space-around：每个项目两侧的间隔相等。所以，项目之间的间隔比项目与边框的间隔大一倍。
+</code></pre></div><h1 id="_5-align-items属性"><a href="#_5-align-items属性" class="header-anchor">#</a> (5)align-items属性</h1> <p><code>align-items</code>属性定义项目在交叉轴上如何对齐。</p> <div class="language- extra-class"><pre class="language-text"><code>.box { align-items: flex-start | flex-end | center | baseline | stretch; }
+</code></pre></div><p>具体的对齐方式与交叉轴的方向有关，下面假设交叉轴从上到下。</p> <div class="language- extra-class"><pre class="language-text"><code>flex-start：交叉轴的起点对齐。
+flex-end：交叉轴的终点对齐。
+center：交叉轴的中点对齐。
+baseline: 项目的第一行文字的基线对齐。
+stretch（默认值）：如果项目未设置高度或设为auto，将占满整个容器的高度
+</code></pre></div><h1 id="_6-align-content属性"><a href="#_6-align-content属性" class="header-anchor">#</a> (6)align-content属性</h1> <p><code>align-content</code>属性定义了多根轴线的对齐方式。如果项目只有一根轴线，该属性不起作用。</p> <div class="language- extra-class"><pre class="language-text"><code>align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+</code></pre></div><p><code>flex-start</code>：与交叉轴的起点对齐。
+<code>flex-end</code>：与交叉轴的终点对齐。
+<code>center</code>：与交叉轴的中点对齐。
+<code>space-between</code>：与交叉轴两端对齐，轴线之间的间隔平均分布。
+<code>space-around</code>：每根轴线两侧的间隔都相等。所以，轴线之间的间隔比轴线与边框的间隔大一倍。
+<code>stretch</code>（默认值）：轴线占满整个交叉轴。</p> <p>示例图：（这块比较上面难理解需要手动去写代码实践操作
+<img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/af8ea71934a649e6b10f339fe2650b21~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp" style="zoom:100%;"></p> <h2 id="_3-说说子级容器属性"><a href="#_3-说说子级容器属性" class="header-anchor">#</a> 3. 说说子级容器属性</h2> <p>6个属性设置在子级元素或者容器上。</p> <p>弹性布局子元素、子容器、项目、项说的是一个概念子容器</p> <ul><li><code>order</code></li></ul> <div class="language- extra-class"><pre class="language-text"><code>flex-grow
+flex-shrink
+flex-basis
+flex
+align-self
+</code></pre></div><h1 id="_1-order属性"><a href="#_1-order属性" class="header-anchor">#</a> （1）order属性</h1> <p><code>order</code>属性定义子元素或者子容器的排列顺序。数值越小，排列越靠前，默认为0。</p> <div class="language- extra-class"><pre class="language-text"><code>.item { order: ; }
+</code></pre></div><img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fbfc78cdc7934959a33e0071feab21d6~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp" style="zoom:100%;"> <h1 id="_2-flex-grow属性"><a href="#_2-flex-grow属性" class="header-anchor">#</a> （2）flex-grow属性</h1> <p><code>flex-grow</code>属性定义子元素或者子容器的放大比例，默认为 0 ，即如果存在剩余空间，也不放大。</p> <div class="language- extra-class"><pre class="language-text"><code>.item { flex-grow: ; /* default 0 */ }
+</code></pre></div><img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6400139643db42b09c9f8448af1e1e5a~tplv-k3u1fbpfcp-zoom-in-crop-mark:4536:0:0:0.awebp" style="zoom:100%;"> <p>如果所有项目的<code>flex-grow</code>属性都为1，则它们将等分剩余空间（如果有的话）。如果一个项目的<code>flex-grow</code>属性为2，其他项目都为1，则前者占据的剩余空间将比其他项多一倍</p> <h1 id="_3-flex-shrink属性"><a href="#_3-flex-shrink属性" class="header-anchor">#</a> （3）flex-shrink属性</h1> <p><code>flex-shrink</code>属性定义了项目的缩小比例，默认为1，即如果空间不足，该项目将缩小。</p> <div class="language- extra-class"><pre class="language-text"><code>.item { flex-shrink: ; /* default 1 */ }
+</code></pre></div><p>如果所有项目的<code>flex-shrink</code>属性都为1，当空间不足时，都将等比例缩小。如果一个项目的<code>flex-shrink</code>属性为0，其他项目都为1，则空间不足时，前者不缩小。</p> <p>负值对该属性无效。</p> <h1 id="_4-flex-basis属性"><a href="#_4-flex-basis属性" class="header-anchor">#</a> （4）flex-basis属性</h1> <p><code>flex-basis</code>属性定义了在分配多余空间之前，项目占据的主轴空间（main size）。浏览器根据这个属性，计算主轴是否有多余空间。它的默认值为auto，即项目的本来大小。</p> <div class="language- extra-class"><pre class="language-text"><code>.item { flex-basis: | auto; /* default auto */ }
+</code></pre></div><p>它可以设为跟width或height属性一样的值（比如350px），则项目将占据固定空间。</p> <h1 id="_5-flex属性"><a href="#_5-flex属性" class="header-anchor">#</a> (5)flex属性</h1> <p><code>flex</code>属性是<code>flex-grow</code>, <code>flex-shrink</code>和 <code>flex-basis</code>的简写，默认值为<code>0 1 auto</code>。后两个属性可选</p> <div class="language- extra-class"><pre class="language-text"><code>.item { flex: none | [ &lt;'flex-grow'&gt; &lt;'flex-shrink'&gt;? || &lt;'flex-basis'&gt; ] }
+</code></pre></div><p>该属性有两个快捷值：<code>auto</code> (<code>1 1 auto</code>) 和 <code>none</code> (<code>0 0 auto</code>)。</p> <p>建议优先使用这个属性，而不是单独写三个分离的属性，因为浏览器会推算相关值。</p> <h1 id="_6-align-self属性"><a href="#_6-align-self属性" class="header-anchor">#</a> (6)align-self属性</h1> <p><code>align-self</code>属性允许单个项目有与其他项目不一样的对齐方式，可覆盖<code>align-items</code>属性。默认值为<code>auto</code>，表示继承父元素的<code>align-items</code>属性，如果没有父元素，则等同于<code>stretch</code>。</p> <div class="language- extra-class"><pre class="language-text"><code>.item { align-self: auto | flex-start | flex-end | center | baseline | stretch; }
+</code></pre></div><p>该属性可能取6个值，除了auto，其他都与align-items属性完全一致。</p> <h2 id="_4-总结"><a href="#_4-总结" class="header-anchor">#</a> 4，总结</h2> <p>弹性布局面试问题回答到这四个点问题应该不大： 基础概念、父级容器属性，子级容器属性，常见案例</p> <p>因为常见弹性布局案例很多，后面会写篇常见弹性布局案例</p></div></section> <footer class="page-edit"><!----> <!----></footer> <!----> <div class="comments-wrapper"><!----></div></main></div> <!----></div> <ul class="sub-sidebar sub-sidebar-wrapper" style="width:12rem;" data-v-b57cc07c data-v-7dd95ae2><li class="level-2" data-v-b57cc07c><a href="/blogs/blogs/3.html#前言" class="sidebar-link reco-side-前言" data-v-b57cc07c>前言</a></li><li class="level-2" data-v-b57cc07c><a href="/blogs/blogs/3.html#_1-基础概念" class="sidebar-link reco-side-_1-基础概念" data-v-b57cc07c>1.基础概念：</a></li><li class="level-2" data-v-b57cc07c><a href="/blogs/blogs/3.html#_2-说说父级容器属性" class="sidebar-link reco-side-_2-说说父级容器属性" data-v-b57cc07c>2. 说说父级容器属性</a></li><li class="level-2" data-v-b57cc07c><a href="/blogs/blogs/3.html#_3-说说子级容器属性" class="sidebar-link reco-side-_3-说说子级容器属性" data-v-b57cc07c>3. 说说子级容器属性</a></li><li class="level-2" data-v-b57cc07c><a href="/blogs/blogs/3.html#_4-总结" class="sidebar-link reco-side-_4-总结" data-v-b57cc07c>4，总结</a></li></ul></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;display:none;" data-v-c6073ba8 data-v-c6073ba8><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-c6073ba8><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-c6073ba8></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-c6073ba8></path></svg></div><div class="Sakura" data-v-248d85d6><canvas id="canvas_sakura" style="z-index:-1;" data-v-248d85d6></canvas></div></div></div>
+    <script src="/blogs/assets/js/app.25fe137b.js" defer></script><script src="/blogs/assets/js/3.f3cac457.js" defer></script><script src="/blogs/assets/js/1.4ce8eb60.js" defer></script><script src="/blogs/assets/js/13.5419f966.js" defer></script>
+  </body>
+</html>
